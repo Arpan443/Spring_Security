@@ -17,11 +17,11 @@ A REST API built with **Spring Boot** demonstrating core **Spring Security** con
 ## Endpoints
 | Endpoint | Access |
 |---|---|
-| `/home` 
-| `/login` 
-| `/register` 
-| `/users/**` |  its for ADMIN role only |
-
+| `/home` | Authenticated users |
+| `/login` | Public |
+| `/register` | Public |
+| `/users/**` | ADMIN role only |
+// for role based auth 
 ## How to Run
 ```bash
 mvn spring-boot:run
