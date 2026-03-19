@@ -21,6 +21,11 @@ A REST API built with **Spring Boot** demonstrating core **Spring Security** con
 | `/login` | Public |
 | `/register` | Public |
 | `/users/**` | ADMIN role only |
+
+
+
+
+
 // for role based auth 
 ## How to Run
 ```bash
